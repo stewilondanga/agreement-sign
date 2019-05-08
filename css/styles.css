@@ -69,9 +69,9 @@ body {
   border-bottom: black dotted 3px;
 }
 
-/*.sigsvg{
-/* border:black solid 1px;*/
-/*}
+.sigsvg {
+  /* border:black solid 1px;*/
+  /*}
 .signature {
   fill: none;
   stroke-dasharray: 2500;
