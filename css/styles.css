@@ -52,13 +52,14 @@ body {
   transform: translatex(-47%)
 }
 
-/*.contentHolder{
-  width:80%;
-  position:absolute;
-  top:120px;
-  left:15%;
+.contentHolder {
+  width: 80%;
+  position: absolute;
+  top: 120px;
+  left: 15%;
 }
-.signaturecontainer{
+
+/*.signaturecontainer{
   position:absolute;
   bottom:310px;
   left:100px;
