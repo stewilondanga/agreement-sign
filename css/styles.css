@@ -15,11 +15,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.paper{
+/*.paper{
   margin:20px auto;
   background:rgba(255,255,255,.9);
   width:600px;
