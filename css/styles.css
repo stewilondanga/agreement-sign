@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,77 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body{
+  background:lightgoldenrodyellow;
+  margin:0;padding:0;
+}
+.paper{
+  margin:20px auto;
+  background:rgba(255,255,255,.9);
+  width:600px;
+  height:700px;
+   box-shadow: 0px 0px 5px 0px #888;
+  position:relative;
+  display:block
+
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  top:1%;
+  height: 98%;
+  width: 2px;
+  background: rgba(0,0,0,0.4);
+  box-shadow: -5px 0 0 rgba(0,0,0,0.4);
+
+}
+
+.title{
+  font-size:20px;
+  font-weight:bolder;
+  position:absolute;
+  top:65px;
+  left:50%;
+  width:50%;
+  background : transperant;
+  text-align:center;
+  transform: translatex(-47%)
+
+}
+.contentHolder{
+  width:80%;
+  position:absolute;
+  top:120px;
+  left:15%;
+}
+.signaturecontainer{
+  position:absolute;
+  bottom:310px;
+  left:100px;
+  overflow:hidden;
+  height:100px;
+  width:250px;
+  border-bottom: black dotted 3px;
+}
+.sigsvg{
+/* border:black solid 1px;*/
+/*}
+.signature {
+  fill: none;
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
+  stroke: #737373;
+  stroke-width: 2;
+  animation: sign 3s linear infinite ;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 .containers {
