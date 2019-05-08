@@ -59,16 +59,17 @@ body {
   left: 15%;
 }
 
-/*.signaturecontainer{
-  position:absolute;
-  bottom:310px;
-  left:100px;
-  overflow:hidden;
-  height:100px;
-  width:250px;
+.signaturecontainer {
+  position: absolute;
+  bottom: 310px;
+  left: 100px;
+  overflow: hidden;
+  height: 100px;
+  width: 250px;
   border-bottom: black dotted 3px;
 }
-.sigsvg{
+
+/*.sigsvg{
 /* border:black solid 1px;*/
 /*}
 .signature {
