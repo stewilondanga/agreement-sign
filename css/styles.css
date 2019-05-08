@@ -82,13 +82,13 @@ body {
   animation: sign 3s linear infinite;
 }
 
-/*@keyframes sign {
+@keyframes sign {
   to {
     stroke-dashoffset: 0;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
